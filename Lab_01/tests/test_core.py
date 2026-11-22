@@ -19,6 +19,33 @@ from core import (
 )
 
 
+@pytest.fixture
+def sample_registrations() -> list[Registration]:
+    return [
+        {
+            "id": 1,
+            "course": "Python",
+            "price": 1000.0,
+            "student_status": "student",
+            "courses_count": 3,
+        },
+        {
+            "id": 2,
+            "course": "SQL",
+            "price": 800.0,
+            "student_status": "regular",
+            "courses_count": 1,
+        },
+        {
+            "id": 3,
+            "course": "Haskell",
+            "price": 1200.0,
+            "student_status": "regular",
+            "courses_count": 4,
+        },
+    ]
+
+
 def test_referential_transparency(sample_registrations: list[Registration]) -> None:
     process = lambda: process_registrations_pure(
         sample_registrations,

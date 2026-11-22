@@ -43,7 +43,7 @@ def run(registrations: list[Registration]) -> None:
     render_report({**result, "stamped_at": stamped_at})
 
 
-if __name__ == "__main__":
+def main() -> None:
     run(
         [
             {
@@ -69,3 +69,7 @@ if __name__ == "__main__":
             },
         ]
     )
+
+
+if __name__ == "__main__":
+    main()
