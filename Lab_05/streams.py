@@ -71,10 +71,7 @@ def window_sums_of_multiples(divisor: int, k: int, n: int) -> list[int]:
 
 
 def pattern_stream(pattern: Iterable[T]) -> Iterator[T]:
-    states = tuple(pattern)
-    if not states:
-        return
-    yield from cycle(states)
+    yield from cycle(pattern)
 
 
 def numbered(it: Iterable[T], start: int = 1) -> Iterator[tuple[int, T]]:

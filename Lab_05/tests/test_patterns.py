@@ -54,4 +54,4 @@ def test_pattern_is_lazy() -> None:
     stream = pattern_stream(states())
     assert produced == []
     assert take(2, stream) == ["A", "B"]
-    assert len(produced) == 3
+    assert len(produced) == 2

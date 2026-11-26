@@ -1,0 +1,10 @@
+[
+  {"id": 101, "weight": 12.5, "distance": 340, "priority": "  HIGH ", "cost": 450},
+  {"id": 102, "weight": 3.2, "distance": 120, "priority": "low", "cost": 150},
+  {"id": 103, "weight": 25, "distance": 610, "priority": "Medium", "cost": 820},
+  {"id": 104, "weight": 7.8, "distance": 95, "priority": "high", "cost": 210},
+  {"id": 105, "weight": 40, "distance": 1200, "priority": " low", "cost": 1300},
+  {"id": 106, "weight": 1.5, "distance": 45, "priority": "MEDIUM", "cost": 90},
+  {"id": 107, "weight": 18, "distance": 530, "priority": "high ", "cost": 640},
+  {"id": 108, "weight": 9.4, "distance": 260, "priority": "medium", "cost": 380}
+]
